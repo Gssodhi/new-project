@@ -127,3 +127,5 @@ userService.connect()
     console.log("unable to start the server: " + err);
     process.exit();
 });
+// At the VERY END of server.js (after all routes)
+module.exports = app;

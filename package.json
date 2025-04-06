@@ -1,6 +1,8 @@
 {
   "name": "user-api",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=16.x" },
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -10,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",

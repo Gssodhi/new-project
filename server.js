@@ -128,4 +128,4 @@ userService.connect()
     process.exit();
 });
 // At the VERY END of server.js (after all routes)
-module.exports = app;
+//module.exports = app;
